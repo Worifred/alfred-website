@@ -211,6 +211,15 @@ button:hover {
   gap: 70px;
   align-items: center;
 }
+.about-photo {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.15);
+}
 
 .about-text {
   text-align: left;
@@ -357,6 +366,17 @@ button:hover {
   flex-direction: column;
   gap: 5px;
   margin-bottom: 20px;
+}
+.contact-item a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
 }
 
 .contact-item span {
