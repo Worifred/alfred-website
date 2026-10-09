@@ -412,6 +412,11 @@ button:hover {
   outline: none;
   transition: 0.3s ease;
 }
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.10);
+}
 
 .contact-form input:focus,
 .contact-form textarea:focus {
@@ -1514,4 +1519,26 @@ nav a:hover {
     font-size: 32px;
   }
 
+}
+/* CONTACT BUTTON IMPROVEMENT */
+
+.contact-form button {
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-radius: 10px;
+}
+
+.contact-form button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+/* ALFRED LOGO IMAGE */
+
+.logo img {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
